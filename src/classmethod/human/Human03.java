@@ -12,6 +12,12 @@ public class Human03 {
 		this.profession = "プログラマー";
 	}
 	
+	public Human03(String name, int age, String profession) {
+		this.name = name;
+		this.age = age;
+		this.profession = profession;
+	}
+	
 	public String getProfile() {
 		return "年齢は" + this.age + "、職業は" + this.profession;
 	}
@@ -23,5 +29,4 @@ public class Human03 {
 		}
 		System.out.println(friend + "さん、こんにちは！");
 	}
-
 }
