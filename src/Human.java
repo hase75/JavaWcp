@@ -13,6 +13,10 @@ public class Human {
 	public void hello() {
 		System.out.println("こんにちわ。私の名前は" + name + "です。" + age + "歳です");
 	}
+	
+	public void goodbye() {
+		System.out.println("さようなら。私は" + name + "と言います。" + age + "歳です。" + "また会いましょう!");
+	}
 
 	public static void main(String[] args) {
 		
@@ -21,5 +25,11 @@ public class Human {
 		
 		Human hanako = new Human("花子", 30);
 		hanako.hello();
+		
+		Human aiko = new Human("愛子",25);
+		aiko.hello();
+		
+		Human kei = new Human("圭",25);
+		kei.goodbye();
 	}
 }
