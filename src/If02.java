@@ -13,6 +13,17 @@ public class If02 {
 		} else {
 			System.out.println(number + "は15未満でないです");
 		}
+		
+		int number2 = 100;
+		if (number2 <= 50) {
+			System.out.println(number2 + "は50未満です");
+		} else if (number2 <= 100) {
+			System.out.println(number2 + "は50以上100未満です");
+		} else if (number2 <= 150) {
+			System.out.println(number2 + "は100以上150未満です");
+		} else {
+			System.out.println(number2 + "は150未満ではないです");
+		}
 	}
 
 }

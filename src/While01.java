@@ -8,6 +8,12 @@ public class While01 {
 			number *= 2;
 			System.out.println("while01 = " + number);
 		}
+		
+		int number2 = 2;
+		while (number2 < 100) {
+			number2 *= 2;
+			System.out.println("while01 =" + number2);
+		}
 	}
 
 }
