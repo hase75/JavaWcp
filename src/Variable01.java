@@ -15,6 +15,11 @@ public class Variable01 {
 		
 		int num2 = 30;
 		System.out.println(num2);
+		
+		int num3;
+		num3 = 50;
+		System.out.println(num3);
+	
 	}
 }
 
