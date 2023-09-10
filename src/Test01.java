@@ -1,5 +1,5 @@
 
-public class Test {
+public class Test01 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
@@ -63,7 +63,7 @@ public class Test {
                 System.out.print(i + ", ");
             } else {
                 System.out.print(i);
-            }
+            }           
         }
         
 //      3問目c　1〜10までの奇数をカンマ区切りで横並びで表示させる（最後はカンマをつけない）
@@ -72,7 +72,7 @@ public class Test {
                 System.out.print(i + ", ");
             } else {
                 System.out.print(i);
-            }
+            } 
         }
 
 //      4問目　要素数20の配列を宣言し、要素に0から5ずつ加算して代入させる。[0]~[10]の値の奇数のみカンマ区切りで、[11]~[19]の値は偶数をカンマ区切りで表示させる
@@ -84,12 +84,12 @@ public class Test {
             array[i] = i * 5;
         }
         
-        System.out.print("奇数: ");
+        System.out.print("\n奇数: ");
         // 奇数の値をカンマ区切りで表示
         for (int i = 0; i <= 10; i++) {
             if (array[i] % 2 != 0) {
                 System.out.print(array[i]);
-                if (i < 10) {
+                if (i < 9) {
                     System.out.print(", ");
                 }
             }
@@ -97,10 +97,10 @@ public class Test {
         
         System.out.print("\n偶数: ");
         // 偶数の値をカンマ区切りで表示
-        for (int i = 11; i < 20; i++) {
+        for (int i = 11; i <= 19; i++) {
             if (array[i] % 2 == 0) {
                 System.out.print(array[i]);
-                if (i < 19) {
+                if (i < 18) {
                     System.out.print(", ");
                 }
             }
