@@ -14,6 +14,18 @@ public class Switch01 {
 		default:
 			System.out.println("がんばろう！");
 		}
+		
+		int val2 = 100;
+		switch (val2) {
+		case 100:
+			System.out.println("すごく美味しいです");
+			break;
+		case 50:
+			System.out.println("美味しいです");
+			break;
+		default:
+			System.out.println("まずいです");
+		}
 	}
 
 }
